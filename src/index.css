@@ -1,0 +1,59 @@
+.App {
+  padding-top: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 56px;
+  font-family: 'Caveat Brush', cursive;
+}
+
+.reminder-form {
+  padding: 5px;
+  margin-top: 30px;
+}
+
+input {
+  margin-right: 5px;
+  margin-left: 8px;
+}
+
+.list-item {
+  display: inline-block;
+}
+
+.delete-button {
+  float: right;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.delete-todo, .cal-icon, .pencil-icon {
+  display: inline-block;
+}
+
+.form-todo, .form-date {
+  border: none;
+  display: inline-block;
+}
+
+.form-wrapper {
+  margin-right: 5px;
+}
+
+.form-todo:focus, .form-date:focus {
+  outline: none;
+}
+
+.todos {
+  margin-top: 20px;
+}
+
+.errMessage {
+  margin-top: 5px;
+  color: #C62828;
+  font-size: 12px;
+}
